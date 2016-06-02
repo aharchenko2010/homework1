@@ -3,14 +3,6 @@
    <head>
       <title>Тест</title>
       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      <style>
-         footer {
-         line-height: 0.1;
-         }
-         div {
-         line-height: 0.2;
-         }
-      </style>
    </head>
    <body>
       <header>
@@ -19,12 +11,12 @@
          <nav>
             <ul>
                <li><a href="index.html">Главная</a></li>
-               <li><a href="webtechnologies.html">Web-технологии</a></li>
+               <li><a href="webtechnologies.html">Web-технологии</a>
                   <ul type="circle">
                      <li><a href="html5.html">HTML5</a></li>
                      <li><a href="css3.html">CSS3</a></li>
                      <li><a href="javascript.html">JavaScript</a></li>
-                  </ul>
+                  </ul></li>
                <li><a href="calculator.html">Калькулятор</a></li>
                <li><a href="test.html">Тест</a></li>
             </ul>
@@ -32,37 +24,39 @@
       </header>
       <div>
          <form name="test" action="http://www.example.com">
-            <p>Какой тег предназначен для создания ссылок:</p>
-               <input type="radio" name="links" value="a" />&lt;a&gt;<br />
-               <input type="radio" name="links" value="a/" />&lt;a /&gt;<br />
-               <input type="radio" name="links" value="ref" />&lt;ref&gt;<br />
-               <input type="radio" name="links" value="ref/" />&lt;ref /&gt;<br />
-            <p>Какой тег предназначен для создания нумерованного списка:</p>
-               <input type="radio" name="list" value="li" />&lt;li&gt;<br />
-               <input type="radio" name="list" value="dl" />&lt;dl&gt;<br />
-               <input type="radio" name="list" value="ol" />&lt;ol&gt;<br />
-               <input type="radio" name="list" value="ul" />&lt;ul&gt;<br />
-            <p>Какой тег предназначен для передачи служебной информации браузеру:</p>
-               <input type="radio" name="serviceinfo" value="info" />&lt;info&gt;<br />
-               <input type="radio" name="serviceinfo" value="info/" />&lt;info /&gt;<br />
-               <input type="radio" name="serviceinfo" value="meta" />&lt;meta&gt;<br />
-               <input type="radio" name="serviceinfo" value="meta/" />&lt;meta /&gt;<br />
-            <p>Какие теги используются при создании таблицы:</p>
-               <input type="checkbox" name="tables" value="bodyt" />&lt;bodyt&gt;<br />
-               <input type="checkbox" name="tables" value="td" />&lt;td&gt;<br />
-               <input type="checkbox" name="tables" value="groupcol" />&lt;groupcol&gt;<br />
-               <input type="checkbox" name="tables" value="col" />&lt;col /&gt;<br />
-            <p>Какие атрибуты используются при создании форм:</p>
-               <input type="checkbox" name="forms" value="autocomplete" />autocomplete<br />
-               <input type="checkbox" name="forms" value="action" />action<br />
-               <input type="checkbox" name="forms" value="charset" />charset<br />
-               <input type="checkbox" name="forms" value="validate" />validate<br />
+            <p>Какой тег предназначен для создания ссылок:<br />
+            <input type="radio" name="links" value="a" />&lt;a&gt;<br />
+            <input type="radio" name="links" value="a/" />&lt;a /&gt;<br />
+            <input type="radio" name="links" value="ref" />&lt;ref&gt;<br />
+            <input type="radio" name="links" value="ref/" />&lt;ref /&gt;<br /></p>
+            <p>Какой тег предназначен для создания нумерованного списка:<br />
+            <input type="radio" name="list" value="li" />&lt;li&gt;<br />
+            <input type="radio" name="list" value="dl" />&lt;dl&gt;<br />
+            <input type="radio" name="list" value="ol" />&lt;ol&gt;<br />
+            <input type="radio" name="list" value="ul" />&lt;ul&gt;<br /></p>
+            <p>Какой тег предназначен для передачи служебной информации браузеру:<br />
+            <input type="radio" name="serviceinfo" value="info" />&lt;info&gt;<br />
+            <input type="radio" name="serviceinfo" value="info/" />&lt;info /&gt;<br />
+            <input type="radio" name="serviceinfo" value="meta" />&lt;meta&gt;<br />
+            <input type="radio" name="serviceinfo" value="meta/" />&lt;meta /&gt;<br /></p>
+            <p>Какие теги используются при создании таблицы:<br />
+            <input type="checkbox" name="tables" value="bodyt" />&lt;bodyt&gt;<br />
+            <input type="checkbox" name="tables" value="td" />&lt;td&gt;<br />
+            <input type="checkbox" name="tables" value="groupcol" />&lt;groupcol&gt;<br />
+            <input type="checkbox" name="tables" value="col" />&lt;col /&gt;<br /></p>
+            <p>Какие атрибуты используются при создании форм:<br />
+            <input type="checkbox" name="forms" value="autocomplete" />autocomplete<br />
+            <input type="checkbox" name="forms" value="action" />action<br />
+            <input type="checkbox" name="forms" value="charset" />charset<br />
+            <input type="checkbox" name="forms" value="validate" />validate<br /></p>
             <p><input type="submit" value="Результат" /></p>
          </form>
       </div>
       <footer>
-         <p><address><a href="mailto:mail@mail">Пишите: mail@mail</a></address></p>
-         <p>&copy;Фамилия И.О., год</p>
+         <address>
+            <a href="mailto:mail@mail">Пишите: mail@mail</a>
+         </address>
+         &copy;Фамилия И.О., год
       </footer>   
    </body>
 </html>
